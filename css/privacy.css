@@ -1,0 +1,22 @@
+/* ----- #privacyMain ----- */
+#privacyMain {
+    padding: 15px 25px;
+    margin-top: 20px;
+    background-color: #FAFAFA;
+    border: 5px solid #CCC;
+    border-radius: 10px;
+}
+
+#privacyMain h2,#privacyMain h3 {
+    margin: 30px 0 20px 0;
+}
+#privacyMain ul,#privacyMain ol {
+    font-size: 14px;
+    line-height: 1.429;
+    padding: 10px;
+}
+
+#privacyMain li {
+    list-style-type: decimal;
+    padding: 5px;
+}

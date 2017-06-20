@@ -1,0 +1,214 @@
+#nextGame {
+    margin-top: 30px;
+}
+#mainVisual {
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+/*** ----- #playerContents ----- ***/
+#playerContents {
+	overflow: hidden;
+	margin-top: 30px;
+}
+#playerContents h2 {
+    padding-bottom: 10px;
+}
+#playerContents p {
+    padding: 10px;
+}
+
+/* .playerArea */
+.playerArea {
+	float: left;
+	width: 300px;
+    margin-top: 10px;
+    text-align: center;
+    background-color: #FAFAFA;
+}
+.playerAreaCenter {
+    margin-right: 30px;
+    margin-left: 30px;
+}
+.playerText {
+    padding-top: 10px;
+}
+
+
+
+
+
+
+
+
+/***** ----- #main ----- *****/
+#main {
+    overflow: hidden;
+    clear: both;
+    margin-top: 30px;
+}
+
+
+/*** ----- #leftContents ----- ***/
+#leftContents {
+	width: 690px;
+    float: left;
+}
+
+/* #gameArea */
+#gameArea {
+    overflow: hidden;
+    padding-bottom: 20px;
+    margin-top: 10px;
+    background-color: #FAFAFA;
+}
+
+
+/* --- #newsArea --- */
+#newsArea {
+	overflow: hidden;
+}
+
+/* .news */
+.news {
+    overflow: hidden;
+	padding: 10px 10px 10px 20px;
+    margin-top: 10px;
+    background-color: #FAFAFA;
+}
+
+/* .newsImg */
+.newsImg {
+    width: 250px;
+	float: left;
+}
+
+/* .newsText */
+.newsText {
+    width: 370px;
+    float: right;
+    padding: 0 10px;
+}
+.newsText p {
+    font-size: 13px;
+    line-height: 1.77;
+}
+.newsText .newsHeadingType-A {
+    padding-left: 70px;
+	padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    font-size: 13px;
+    line-height: 1.461;
+}
+.newsText .newsHeadingType-B {
+    padding-left: 70px;
+	padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    font-size: 13px;
+    line-height: 1.461;
+}
+.newsText .newsHeadingType-C {
+    padding-left: 70px;
+	padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    font-size: 13px;
+    line-height: 1.461;
+}
+
+
+
+
+
+
+
+
+/*** ----- #sideContents ----- ***/
+#sideContents {
+    width: 240px;
+    float: right;
+}
+
+
+/* ----- #side1 ----- */
+#side1 {
+    
+}
+
+/* #side1 table */
+#side1 .schedule {
+    margin-top: 10px;
+}
+#side1 table {
+    width: 100%;
+    font-size: 14px;
+    padding: 10px;
+    background-color: #FFF;
+}
+#side1 table caption {
+    font-weight: bold;
+}
+#side1 table .j1_tr {
+    background-color: #E54F46;
+    color: #FFF;
+}
+#side1 table .j2_tr {
+    background-color: #40A071;
+    color: #FFF;
+}
+#side1 table .j3_tr {
+    background-color: #4C4643;
+    color: #FFF;
+}
+#side1 table td {
+    text-align: center;
+}
+
+
+/* ----- #side2 ----- */
+#side2 {
+    margin-top: 30px;
+}
+#side2 .ranking {
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    background-color: #FAFAFA;
+}
+#side2 .j1Heading {
+    color: #FFF;
+    padding: 5px 10px;
+    background-color: #E54F46;
+}
+#side2 .j2Heading {
+    color: #FFF;
+    padding: 5px 10px;
+    background-color: #40A071;
+}
+#side2 .j3Heading {
+    color: #FFF;
+    padding: 5px 10px;
+    background-color: #4C4643;
+}
+
+
+/* .ranking table */
+.ranking table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin-top: 10px;
+}
+.ranking table td {
+	padding-left: 5px;
+}
+.rankingThis {
+	text-align: right;
+	padding-right: 3px;
+}

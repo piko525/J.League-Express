@@ -1,0 +1,44 @@
+/* ----- #questionMain ----- */
+#questionMain {
+    margin-top: 20px;
+    background-color: #FAFAFA;
+}
+
+/* --- #faq --- */
+#faq {
+    padding: 10px;
+    font-size: 16px;
+}
+
+#faq dt {
+    padding: 15px 0 5px 10px;
+    counter-increment: question;
+}
+#faq dt:before {
+    padding-right: 5px;
+    color: coral;
+    font-weight: bold;
+    content: "Q" counter(question) ".";
+}
+
+#faq dd {
+    padding: 5px 0 15px 10px;
+    border-bottom: dotted 1px #A4A4A4;
+}
+#faq dd:before {
+    padding-right: 5px;
+    color: deepskyblue;
+    font-weight: bold;
+    content: "A" ".";
+}
+#faq .faqLast {
+    border: none;
+}
+
+#faq ul {
+    padding: 10px;
+}
+#faq li {
+    list-style-type: square;
+    list-style-position: inside;
+}

@@ -1,0 +1,56 @@
+/* ----- #photoMain -----  */
+
+/* .photoContents */
+.photoContents {
+	overflow: hidden;
+    margin-top: 30px;
+}
+
+/* .photoArea */
+.photoArea {
+	float: left;
+	width: 300px;
+	padding-left: 15px;
+    margin-top: 10px;
+}
+.photoArea .photoAreaText {
+	padding: 10px;
+    background-color: #FAFAFA;
+}
+
+
+
+
+
+/* ここからモーダルウィンドウ */
+.modal-content {
+	width: 20% ;
+	margin: 0 ;
+	padding: 10px 20px ;
+	border: 2px solid #aaa ;
+	background: #fff ;
+	position: fixed ;
+	display: none ;
+	z-index: 2 ;
+}
+ 
+#modal-overlay {
+	z-index: 1 ;
+	display: none ;
+	position: fixed ;
+	top: 0 ;
+	left: 0 ;
+	width: 100% ;
+	height: 120% ;
+	background-color: rgba( 0,0,0, 0.75 ) ;
+}
+
+.button-link {
+	color: #00f ;
+	text-decoration: underline ;
+}
+ 
+.button-link:hover {
+	cursor: pointer ;
+	color: #f00 ;
+}

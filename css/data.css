@@ -1,0 +1,59 @@
+/* ----- #dataContents ----- */
+#dataContents {
+    padding-top: 20px;
+}
+
+/* #teamRanking */
+#teamRanking {
+    margin-top: 30px;
+}
+
+/* table */
+#teamRanking table {
+    width: 100%;
+    background-color: #FAFAFA;
+    border-collapse: separate;
+    border-spacing: 0;
+    text-align: left;
+    line-height: 1.5;
+    border-top: 1px solid #CCC;
+    border-left: 1px solid #CCC;
+    margin-top: 30px;
+}
+#teamRanking table th {
+    width: 150px;
+    font-size: 15px;
+    color: #FFF;
+    padding: 10px;
+    font-weight: bold;
+    vertical-align: top;
+    white-space: nowrap;
+    border-right: 1px solid #CCC;
+    border-bottom: 1px solid #CCC;
+    border-top: 1px solid #FFF;
+    border-left: 1px solid #FFF;
+}
+#teamRanking table td {
+    width: 350px;
+    font-size: 12px;
+    padding: 10px;
+    vertical-align: top;
+    white-space: nowrap;
+    border-right: 1px solid #CCC;
+    border-bottom: 1px solid #CCC;
+}
+#teamRanking caption {
+    font-weight: bold;
+}
+#teamRanking .j1TableHeading {
+    background-color: #E54F46;
+}
+#teamRanking .j2TableHeading {
+    background-color: #40A071;
+}
+#teamRanking .j3TableHeading {
+    background-color: #4C4643;
+}
+#teamRanking .tableHoverTr:hover {
+    background-color: #EEE;
+}
