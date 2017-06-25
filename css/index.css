@@ -21,21 +21,21 @@
 }
 
 /* .playerArea */
-.playerArea {
+#playerContents .playerArea {
 	float: left;
 	width: 300px;
     margin-top: 10px;
     text-align: center;
     background-color: #FAFAFA;
 }
-.playerAreaCenter {
+#playerContents .playerAreaCenter {
     margin-right: 30px;
     margin-left: 30px;
 }
-.playerText li:nth-child(even) {
+#playerContents .playerText li:nth-child(even) {
     background: #E6E6E6;
 }
-.playerText ul li {
+#playerContents .playerText ul li {
     font-size: 14px;
     padding: 10px;
 }
